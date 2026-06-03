@@ -327,6 +327,11 @@ a.btn-book, .btn-book {
   transform: translateY(-2px);
 }
 
+/* Mobile Booking Bubble */
+.mobile-book-bubble {
+  display: none;
+}
+
 /* Sections General */
 section {
   padding: 100px 0;
@@ -1521,11 +1526,18 @@ footer {
   .rooms-grid {
     grid-template-columns: 1fr;
   }
-  .search-bar {
-    grid-template-columns: 1fr;
+  .hero-content {
+    margin-top: 70px;
   }
-  .btn-search {
-    grid-column: span 1;
+  .search-bar {
+    display: none !important;
+  }
+  .mobile-book-bubble {
+    display: inline-block !important;
+    margin-top: 30px;
+    padding: 15px 40px !important;
+    font-size: 1.1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   }
   section {
     padding: 60px 0;
