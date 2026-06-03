@@ -1521,6 +1521,9 @@ footer {
   .hero-title span {
     font-size: 1.6rem;
   }
+  .rooms-grid {
+    grid-template-columns: 1fr;
+  }
   .hero-content {
     margin-top: 70px;
   }
