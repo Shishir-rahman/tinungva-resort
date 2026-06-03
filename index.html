@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Experience premium eco-friendly wooden cottages, breathtaking valley views, and authentic hill cuisine like Bamboo Chicken at Tinungva Resort & Restaurant, Bandarban. Book your stay with host Stephen Bawm.">
+  <title>Tinungva Resort & Restaurant | Nature Hillside Escape, Bandarban</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24">
+          <path d="M12 3L2 12h3v8h14v-8h3L12 3zm0 2.5l7 6.3V18H5v-6.2l7-6.3zm-3 5.5h2v4H9v-4zm4 0h2v2h-2v-2z"/>
+        </svg>
+        <span class="logo-text">Tinungva<span>Resort</span></span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Cottages</a></li>
+        <li><a href="#restaurant">Restaurant</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="btn-book" id="navBookBtn">Book Now</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="hero-subtitle">Serenity in the Clouds</span>
+      <h1 class="hero-title">Tinungva Resort & Restaurant<span>Bandarban Hilltop Escape</span></h1>
+      <p class="hero-desc">Experience spectacular valley views, modern wooden cabins, crisp mountain air, and authentic indigenous hill cuisine managed with warm hospitality by Stephen Bawm.</p>
+      
+      <!-- HERO QUICK SEARCH BAR -->
+      <form class="search-bar" id="quickSearchForm">
+        <div class="search-field">
+          <label for="checkIn">Check-In</label>
+          <input type="date" id="checkIn" required>
+        </div>
+        <div class="search-field">
+          <label for="checkOut">Check-Out</label>
+          <input type="date" id="checkOut" required>
+        </div>
+        <div class="search-field">
+          <label for="guests">Guests</label>
+          <select id="guests">
+            <option value="1">1 Guest</option>
+            <option value="2" selected>2 Guests</option>
+            <option value="3">3 Guests</option>
+            <option value="4">4 Guests</option>
+            <option value="5">5 Guests</option>
+            <option value="6">6 Guests</option>
+          </select>
+        </div>
+        <div class="search-field">
+          <label for="roomType">Cottage Type</label>
+          <select id="roomType">
+            <option value="couple">Couple Room</option>
+            <option value="family">Family Suit</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-search">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+          </svg>
+          Check Availability
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-subtitle">Welcome to Tinungva</span>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 25px;">A Sanctuary in the Misty Valleys</h2>
+        <p class="about-desc">
+          Perched on the gorgeous ridges of Bandarban along the scenic Chimbuk Road, Tinungva Resort & Restaurant is your perfect gateway to experience the wilderness. Founded and managed by Stephen Bawm, our resort is built to coexist with nature, offering traditional wooden architecture and custom services that let you unwind completely.
+        </p>
+        <p class="about-desc" style="margin-top: -15px; margin-bottom: 35px;">
+          Here, you wake up above the clouds, breathe the fresh mountain air, and savor recipes handed down through generations, combining the finest Bengali traditions with indigenous hill cuisine.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.25z"/></svg>
+            </div>
+            <div>
+              <h4 class="highlight-title">100% Eco-Friendly</h4>
+              <p class="highlight-desc">Constructed from locally sourced wood and bamboo to minimize environmental impact.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </div>
+            <div>
+              <h4 class="highlight-title">Local Trek Guides</h4>
+              <p class="highlight-desc">Experienced guides to help you explore hidden waterfalls and remote ethnic villages.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="host-info">
+          <img src="assets/stephen.jpg" alt="Stephen Bawm" class="host-avatar" style="object-fit: cover;">
+          <div class="host-details">
+            <span class="host-name">Stephen Bawm</span>
+            <span class="host-title">Owner & Your Host (Phone: 01876355275)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-media">
+        <div class="about-img-wrapper">
+          <img src="assets/interior.png" alt="Cozy wooden cabin interior looking out at green Bandarban hills" class="about-img">
+        </div>
+        <div class="about-badge">
+          <span class="about-badge-num">100%</span>
+          <span class="about-badge-txt">Nature<br>Vibe</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COTTAGES (ROOMS) SECTION -->
+  <section class="rooms section-bg-cream" id="rooms">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Comfort In Nature</span>
+        <h2 class="section-title">Our Hillside Cottages</h2>
+      </div>
+
+      <div class="rooms-grid" style="grid-template-columns: 1fr 1fr; max-width: 900px; margin: 0 auto;">
+        <!-- Room Couple -->
+        <div class="room-card">
+          <div class="room-img-container">
+            <img src="assets/interior.png" alt="Couple Room Cottage" class="room-img">
+            <div class="room-price-tag">4,000 BDT <span>/ Night</span></div>
+          </div>
+          <div class="room-details">
+            <h3 class="room-title">Couple Room</h3>
+            <ul class="room-features">
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z"/></svg>
+                King Bed
+              </li>
+              <!--
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"/></svg>
+                AC Option
+              </li>
+              -->
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                2 Guests
+              </li>
+            </ul>
+            <ul class="room-bullets">
+              <li>Spectacular front balcony sunset view</li>
+              <li>Attached modern washroom with hot water</li>
+              <li>Complimentary indigenous Zoom breakfast</li>
+              <li>Handcrafted wooden interior paneling</li>
+            </ul>
+            <button class="btn-card-book" data-room="couple">Book Cabin</button>
+          </div>
+        </div>
+
+        <!-- Family Suit -->
+        <div class="room-card">
+          <div class="room-img-container">
+            <img src="assets/interior.png" alt="Family Suit" class="room-img">
+            <div class="room-price-tag">4,000 BDT <span>/ Night</span></div>
+          </div>
+          <div class="room-details">
+            <h3 class="room-title">Family Suit</h3>
+            <ul class="room-features">
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M7 13c1.66 0 3-1.34 3-3S8.66 7 7 7s-3 1.34-3 3 1.34 3 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9c0-2.21-1.79-4-4-4z"/></svg>
+                2x Double
+              </li>
+              <!--
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"/></svg>
+                AC & Fan
+              </li>
+              -->
+              <li class="room-feature-item">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                4-6 Guests
+              </li>
+            </ul>
+            <ul class="room-bullets">
+              <li>Huge double rooms with partition</li>
+              <li>180-degree wrap-around panoramic deck</li>
+              <li>Perfect for families or groups of friends</li>
+              <li>Complimentary breakfast and tea service</li>
+            </ul>
+            <button class="btn-card-book" data-room="family">Book Cabin</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESTAURANT & FOOD SECTION -->
+  <section class="restaurant section-bg-dark" id="restaurant">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Tinungva Kitchen</span>
+        <h2 class="section-title">Authentic Hill Food & Bengali Classics</h2>
+      </div>
+
+      <div class="restaurant-showcase" style="margin-bottom: 60px;">
+        <div class="restaurant-intro">
+          <h3>Savor Chittagong Hill Tracts Cuisine</h3>
+          <p>At Tinungva, dining is an adventure. We specialize in authentic ethnic food cooked using traditional methods, as well as comforting local Bengali classics. Our zoom cultivation ingredients ensure freshness and unique mountain spices.</p>
+          
+          <div class="featured-dish">
+            <div class="dish-img-wrapper">
+              <img src="assets/food.png" alt="Authentic Hill Food Bamboo Chicken cooked on charcoal" class="dish-img">
+            </div>
+            <div class="dish-info">
+              <span class="dish-badge">Signature Dish</span>
+              <h4>Traditional Bamboo Chicken</h4>
+              <p>Fresh chicken cuts marinated in wild ginger, hill chilies, and garlic, packed into green bamboo hollows, sealed with banana leaves, and slow-roasted over firewood.</p>
+              <strong style="color: var(--color-accent); font-size: 1.1rem;">450 BDT</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-container">
+          <div class="menu-tabs">
+            <button class="menu-tab-btn active" data-filter="all">All Items</button>
+            <button class="menu-tab-btn" data-filter="hill">Authentic Hill Food</button>
+            <button class="menu-tab-btn" data-filter="bengali">Bengali Classics</button>
+            <button class="menu-tab-btn" data-filter="drinks">Beverages</button>
+          </div>
+
+          <div class="menu-grid">
+            <!-- Item 1 -->
+            <div class="menu-item" data-category="hill">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Bamboo Chicken (Full)</h4>
+                  <span class="menu-item-price">450 BDT</span>
+                </div>
+                <p class="menu-item-desc">Slow roasted inside raw green bamboo trunks with local wild herbs.</p>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item" data-category="hill">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Tojah (Indigenous Salad)</h4>
+                  <span class="menu-item-price">150 BDT</span>
+                </div>
+                <p class="menu-item-desc">Crushed wild mountain herbs, green chillies, lemon leaves, and zoom fruits.</p>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item" data-category="hill">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Zoom Pork Curry / Wild Style</h4>
+                  <span class="menu-item-price">350 BDT</span>
+                </div>
+                <p class="menu-item-desc">Local traditional recipe cooked with minimal oil and wild black pepper.</p>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="menu-item" data-category="bengali">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Rui Fish Curry (Chimbuk Style)</h4>
+                  <span class="menu-item-price">220 BDT</span>
+                </div>
+                <p class="menu-item-desc">Rich Bengali tomato-onion gravy featuring fresh river carp.</p>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="menu-item" data-category="bengali">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Traditional Vorta Platter</h4>
+                  <span class="menu-item-price">180 BDT</span>
+                </div>
+                <p class="menu-item-desc">Four varieties of handmade mash (Alo, Begun, Shutki, and Bamboo Shoots).</p>
+              </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="menu-item" data-category="bengali">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Zoom Sticky Rice</h4>
+                  <span class="menu-item-price">100 BDT</span>
+                </div>
+                <p class="menu-item-desc">Locally grown aromatic sticky rice steamed in banana leaf pouches.</p>
+              </div>
+            </div>
+            <!-- Item 7 -->
+            <div class="menu-item" data-category="drinks">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Ginger Herbal Hill Tea</h4>
+                  <span class="menu-item-price">60 BDT</span>
+                </div>
+                <p class="menu-item-desc">Brewed with mountain wild ginger, mint leaves, and pure forest honey.</p>
+              </div>
+            </div>
+            <!-- Item 8 -->
+            <div class="menu-item" data-category="drinks">
+              <div class="menu-item-details">
+                <div class="menu-item-header">
+                  <h4 class="menu-item-title">Fresh Zoom Papaya Juice</h4>
+                  <span class="menu-item-price">120 BDT</span>
+                </div>
+                <p class="menu-item-desc">Squeezed from organic papayas harvested directly from our hillside orchard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Restaurant Food Gallery -->
+      <div style="margin-top: 60px;">
+        <h3 style="text-align: center; color: var(--color-accent); margin-bottom: 30px; font-size: 2rem;">Authentic Culinary Experience</h3>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/food_gal_1.jpg?v=1" alt="Food Preparation">
+            <div class="gallery-overlay">
+              <h4>Fresh Ingredients</h4>
+              <p>Prepared with wild mountain herbs.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/food_gal_2.jpg?v=1" alt="Cooking over fire">
+            <div class="gallery-overlay">
+              <h4>Woodfire Cooking</h4>
+              <p>Traditional slow roasting over charcoal.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/food_gal_3.jpg?v=1" alt="Bamboo Chicken">
+            <div class="gallery-overlay">
+              <h4>Bamboo Delicacies</h4>
+              <p>Chicken cooked in green bamboo trunks.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/food_gal_4.jpg?v=1" alt="Traditional Dining">
+            <div class="gallery-overlay">
+              <h4>Banana Leaf Dining</h4>
+              <p>Authentic hill-style eating experience.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/food_gal_5.jpg?v=1" alt="Tinungva Special">
+            <div class="gallery-overlay">
+              <h4>Tinungva Special</h4>
+              <p>Savor our signature Bamboo Chicken.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/food.png?v=1" alt="Bamboo Chicken Platter">
+            <div class="gallery-overlay">
+              <h4>Signature Dish</h4>
+              <p>Delicious Bamboo Chicken served hot.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Visual Tour</span>
+        <h2 class="section-title">Moments at Tinungva</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/resort_gal_1.jpg?v=2" alt="Resort View 1">
+          <div class="gallery-overlay">
+            <h4>Wooden Cabin</h4>
+            <p>Classic wooden exterior blending perfectly with nature.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/resort_gal_2.jpg?v=2" alt="Resort View 2">
+          <div class="gallery-overlay">
+            <h4>Magical Sunset</h4>
+            <p>Breathtaking sunset views right from the resort deck.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/resort_gal_3.jpg?v=2" alt="Resort View 3">
+          <div class="gallery-overlay">
+            <h4>Eco-Friendly Architecture</h4>
+            <p>Sturdy wooden cottages built beautifully on the hillside.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/resort_gal_4.jpg?v=2" alt="Resort View 4">
+          <div class="gallery-overlay">
+            <h4>Cozy Interiors</h4>
+            <p>Comfortable beds with rustic bamboo and wooden walls.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/resort_gal_5.jpg?v=2" alt="Resort View 5">
+          <div class="gallery-overlay">
+            <h4>Forest Balcony</h4>
+            <p>Private balconies overlooking the dense, green valley.</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/resort_gal_1.jpg?v=2" alt="Resort View 6">
+          <div class="gallery-overlay">
+            <h4>Serene Atmosphere</h4>
+            <p>Experience the unmatched tranquility of Tinungva Resort.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials section-bg-cream" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Reviews</span>
+        <h2 class="section-title">What Our Guests Say</h2>
+      </div>
+
+      <div class="testimonials-slider">
+        <div class="testimonials-track">
+          <!-- Slide 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"Tinungva is a hidden gem in Bandarban. The sunset view from the Premium Cottage balcony is unparalleled. Host Stephen Bawm made us feel like family, and the Bamboo Chicken is absolutely mouth-watering!"</p>
+            <div class="testimonial-author-wrapper">
+              <div class="testimonial-avatar">RH</div>
+              <span class="testimonial-name">Rashedul H.</span>
+              <span class="testimonial-location">Dhaka, Bangladesh</span>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"If you want to escape the city noise, this is the place. The bamboo cabin has amazing ventilation, and you wake up surrounded by clouds. Very peaceful, very clean. Must try the wild ginger herbal tea."</p>
+            <div class="testimonial-author-wrapper">
+              <div class="testimonial-avatar">SA</div>
+              <span class="testimonial-name">Sana Alvi</span>
+              <span class="testimonial-location">Chittagong, Bangladesh</span>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"Stephen arranged a local guide who took us trekking down to a pristine hidden waterfall. Coming back to a hot meal of Zoom sticky rice and bamboo chicken was perfect. Will return next winter!"</p>
+            <div class="testimonial-author-wrapper">
+              <div class="testimonial-avatar">JN</div>
+              <span class="testimonial-name">Jamil N.</span>
+              <span class="testimonial-location">Sylhet, Bangladesh</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <!-- Dots dynamically generated here -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & LOCATION SECTION -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Plan Your Nature Getaway</h2>
+        <p style="margin-bottom: 40px; opacity: 0.85;">Contact us directly to inquire about booking rates, peak seasons, and customized dining plans. We look forward to welcoming you.</p>
+
+        <div class="contact-info-list">
+          <!-- Info Item 1 -->
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </div>
+            <div class="contact-info-details">
+              <h4>Our Location</h4>
+              <p>Shoilo Propat, Bandarban, Bangladesh</p>
+            </div>
+          </div>
+          <!-- Info Item 2 -->
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="contact-info-details">
+              <h4>Phone Reservation</h4>
+              <p>Stephen Bawm: <a href="tel:01876355275">01876355275</a> (Direct Call)</p>
+            </div>
+          </div>
+          <!-- Info Item 3 -->
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+            </div>
+            <div class="contact-info-details">
+              <h4>WhatsApp Chat</h4>
+              <p><a href="https://wa.me/8801876355275" target="_blank">Chat with Host Stephen</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <h3 class="form-title">Send Us An Inquiry</h3>
+        <form id="mainContactForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Your Email</label>
+              <input type="email" id="contactEmail" placeholder="Enter email">
+            </div>
+          </div>
+          <div class="form-group full-width" style="margin-bottom: 25px;">
+            <label for="contactMessage">Your Message</label>
+            <textarea id="contactMessage" rows="5" placeholder="How can we help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Submit Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-logo">Tinungva<span>Resort</span></h3>
+        <p class="footer-about">Experience nature from above the clouds. Custom wooden cottages and authentic tribal cuisine in the majestic hills of Bandarban.</p>
+        <div class="social-links">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"/></svg>
+          </a>
+          <a href="https://wa.me/8801876355275" target="_blank" class="social-icon" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.819 9.819 0 0 0 12.04 2zm5.07 12.98c-.28-.14-1.64-.81-1.9-1-.26-.1-.45-.14-.64.14-.19.28-.74.93-.9 1.12-.17.19-.34.21-.62.07a8.72 8.72 0 0 1-2.58-1.59 9.61 9.61 0 0 1-1.78-2.22c-.17-.28-.02-.44.12-.58.13-.13.28-.33.43-.5.14-.17.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.54-.88-2.11-.23-.55-.47-.48-.64-.49-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.35-.26.28-1 1-1 2.44 0 1.45 1.05 2.85 1.2 3.04.14.19 2.07 3.16 5.01 4.43.7.3 1.25.48 1.68.62.7.22 1.34.19 1.84.11.56-.08 1.64-.67 1.88-1.32.23-.66.23-1.22.16-1.34-.07-.13-.26-.2-.54-.34z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#rooms">Rooms & Rates</a></li>
+          <li><a href="#restaurant">Restaurant Menu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">Cottages</h4>
+        <ul class="footer-links">
+          <li><a href="#rooms">Couple Room</a></li>
+          <li><a href="#rooms">Family Suit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">Contact Info</h4>
+        <p class="footer-about">
+          Stephen Bawm: <strong>01876355275</strong><br>
+          Email: info@tinungvaresort.com<br><br>
+          <strong>Open Hours:</strong><br>
+          Resort Check-In: 02:00 PM<br>
+          Resort Check-Out: 11:00 AM<br>
+          Restaurant: 07:00 AM - 10:00 PM
+        </p>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      &copy; 2026 Tinungva Resort & Restaurant, Bandarban. All Rights Reserved. Designed by Antigravity.
+    </div>
+  </footer>
+
+  <!-- BOOKING MODAL WITH PRICING ENGINE -->
+  <div class="modal-overlay" id="bookingModal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Book Your <span>Tinungva Cabin</span></h3>
+        <button class="modal-close-btn" id="closeBooking">&times;</button>
+      </div>
+      
+      <!-- Normal Booking Form Body -->
+      <div class="modal-body" id="modalNormalBody">
+        <form class="modal-grid" id="modalBookingForm">
+          
+          <div class="modal-form-section">
+            <div class="form-group">
+              <label for="modalRoomSelect">Select Cottage</label>
+              <select id="modalRoomSelect" required>
+                <option value="couple">Couple Room (4,000 BDT/night)</option>
+                <option value="family">Family Suit (4,000 BDT/night)</option>
+              </select>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="modalCheckIn">Check-In Date</label>
+                <input type="date" id="modalCheckIn" required>
+              </div>
+              <div class="form-group">
+                <label for="modalCheckOut">Check-Out Date</label>
+                <input type="date" id="modalCheckOut" required>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="modalGuests">Number of Guests</label>
+                <input type="number" id="modalGuests" min="1" max="10" value="2" required>
+              </div>
+              <div class="form-group">
+                <!-- Spacing block -->
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="modalName">Guest Full Name</label>
+              <input type="text" id="modalName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="modalPhone">Phone Number</label>
+              <input type="tel" id="modalPhone" placeholder="Enter phone number" required>
+            </div>
+          </div>
+
+          <div class="modal-summary-section">
+            <h4 class="summary-heading">Booking Estimate</h4>
+            
+            <div class="summary-row">
+              <span>Cabin:</span>
+              <span id="sumRoomName" style="font-weight:600; text-align:right;">Couple Room</span>
+            </div>
+
+            <div class="summary-row">
+              <span>Duration:</span>
+              <span id="sumNights" style="font-weight:600;">1 Night</span>
+            </div>
+
+            <div class="summary-row">
+              <span>Cabin Base Cost:</span>
+              <span id="sumRoomCost" style="font-weight:600;">4,000 BDT</span>
+            </div>
+
+            <div>
+              <span style="font-size:0.8rem; font-weight:600; text-transform:uppercase; color:var(--color-primary); display:block; margin-bottom:5px;">Optional Amenities</span>
+              <div class="modal-checkboxes">
+                <label class="checkbox-item">
+                  <input type="checkbox" id="extraBreakfast">
+                  <span>Zoom Breakfast (+250 BDT/person/day)</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" id="extraTrekking">
+                  <span>Guided Trekking (+500 BDT/person)</span>
+                </label>
+                <label class="checkbox-item">
+                  <input type="checkbox" id="extraDinner">
+                  <span>Traditional Dinner (+400 BDT/person/day)</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="summary-row">
+              <span>Extra Amenities:</span>
+              <span id="sumExtrasCost" style="font-weight:600;">0 BDT</span>
+            </div>
+
+            <div class="summary-row total">
+              <span>Estimated Total:</span>
+              <span class="price" id="sumTotalCost">4,000 BDT</span>
+            </div>
+
+            <p class="whatsapp-note">
+              *Note: Clicking "Confirm Reservation" opens WhatsApp to send this summary to Stephen Bawm for real-time room availability confirmation.
+            </p>
+
+            <button type="submit" class="btn-confirm-booking">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" style="fill:white;">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.819 9.819 0 0 0 12.04 2zm5.07 12.98c-.28-.14-1.64-.81-1.9-1-.26-.1-.45-.14-.64.14-.19.28-.74.93-.9 1.12-.17.19-.34.21-.62.07a8.72 8.72 0 0 1-2.58-1.59 9.61 9.61 0 0 1-1.78-2.22c-.17-.28-.02-.44.12-.58.13-.13.28-.33.43-.5.14-.17.19-.28.28-.47.1-.19.05-.35-.02-.5-.07-.14-.64-1.54-.88-2.11-.23-.55-.47-.48-.64-.49-.16-.01-.35-.01-.54-.01-.19 0-.5.07-.76.35-.26.28-1 1-1 2.44 0 1.45 1.05 2.85 1.2 3.04.14.19 2.07 3.16 5.01 4.43.7.3 1.25.48 1.68.62.7.22 1.34.19 1.84.11.56-.08 1.64-.67 1.88-1.32.23-.66.23-1.22.16-1.34-.07-.13-.26-.2-.54-.34z"/>
+              </svg>
+              Confirm via WhatsApp
+            </button>
+          </div>
+
+        </form>
+      </div>
+      
+      <!-- Success Confirmation View -->
+      <div class="modal-body" id="modalSuccessBody" style="display: none;">
+        <div class="booking-success-message">
+          <div class="success-check-icon">✓</div>
+          <h3 style="color: var(--color-primary); font-size: 1.6rem; font-family: var(--font-heading);">WhatsApp Booking Opened!</h3>
+          <p style="color: var(--color-text-dark); opacity: 0.9;">
+            We've generated your booking summary and opened WhatsApp in a new tab. Please click "Send" in WhatsApp to forward the reservation query directly to Stephen Bawm (01876355275).
+          </p>
+          <p style="font-size: 0.9rem; color: var(--color-muted); margin-top: 10px;">
+            He will reply to you on WhatsApp to confirm room availability and payment procedures. Thank you for choosing Tinungva Resort!
+          </p>
+          <button class="btn-card-book" id="btnSuccessClose" style="max-width: 200px; margin-top: 20px;">Close Window</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    // Additional bindings for success modal close button
+    document.getElementById('btnSuccessClose').addEventListener('click', () => {
+      document.getElementById('bookingModal').classList.remove('open');
+    });
+    document.getElementById('navBookBtn').addEventListener('click', (e) => {
+      e.preventDefault();
+      document.getElementById('bookingModal').classList.add('open');
+    });
+    // Search bar check availability binder
+    document.getElementById('quickSearchForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.getElementById('bookingModal').classList.add('open');
+    });
+  </script>
+</body>
+</html>
