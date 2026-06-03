@@ -1515,6 +1515,10 @@ footer {
   .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
   }
+  .hero {
+    background-position: 80% center;
+    background-attachment: scroll;
+  }
   .hero-title {
     font-size: 2.5rem;
   }
