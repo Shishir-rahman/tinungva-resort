@@ -547,7 +547,7 @@ section {
 /* Rooms & Cottages Section */
 .rooms-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
@@ -596,6 +596,7 @@ section {
   font-size: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(197, 160, 89, 0.3);
+  white-space: nowrap;
 }
 
 .room-price-tag span {
@@ -1450,9 +1451,6 @@ footer {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .rooms-grid {
-    grid-template-columns: 1fr 1fr;
-  }
   .restaurant-showcase {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1522,9 +1520,6 @@ footer {
   }
   .hero-title span {
     font-size: 1.6rem;
-  }
-  .rooms-grid {
-    grid-template-columns: 1fr;
   }
   .hero-content {
     margin-top: 70px;
