@@ -1548,4 +1548,21 @@ footer {
   .form-group.full-width {
     grid-column: span 1;
   }
+  .hero-title {
+    font-size: 2rem;
+  }
+  .hero-title span {
+    font-size: 1.2rem;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .host-info {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .host-details {
+    align-items: center;
+  }
 }
